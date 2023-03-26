@@ -1,15 +1,15 @@
 -- =============================================
 -- SaveToDB Framework for SQL Server Compact
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
 -- This script updates SaveToDB Framework 10 to the latest version
 --
--- Copyright 2013-2022 Gartle LLC
+-- Copyright 2013-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
 
-UPDATE handlers SET HANDLER_CODE = '10.6' WHERE TABLE_NAME = 'savetodb_framework';
+UPDATE handlers SET HANDLER_CODE = '10.8' WHERE TABLE_NAME = 'savetodb_framework';
 
 DELETE FROM handlers WHERE TABLE_NAME = 'handlers' AND COLUMN_NAME = 'EVENT_NAME';
 
